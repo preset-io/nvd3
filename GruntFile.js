@@ -136,7 +136,7 @@ module.exports = function(grunt) {
                         'node_modules/moment/moment.js',
                         'src/*.js',
                         'src/models/*.js',
-                        'test/mocha/*.coffee',
+                      //'test/mocha/*.coffee',
                         'https://cdn.rawgit.com/Kcnarf/d3-beeswarm/fbda9b54/build/d3-beeswarm.min.js',
                         'test/mocha/*.js'
                     ],

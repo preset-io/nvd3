@@ -1,3 +1,14 @@
+# THIS IS A FORK
+
+Offered help [here](https://github.com/novus/nvd3/issues/2222)
+but didn't get anywhere.
+
+This is fork is published at `nvd3-fork` and will only contain minor
+patches and fixes. 
+
+Note that there's another fork [here]( https://github.com/nvd3/nvd3) that
+targets d3 v4 update for nvd3.
+
 ## NVD3 - A reusable D3 charting library
 
 Inspired by the work of Mike Bostock's [Towards Reusable Charts](http://bost.ocks.org/mike/chart/), and supported by a combined effort of [Novus](http://www.novus.com) and the NVD3 community.
