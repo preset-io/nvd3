@@ -1,17 +1,16 @@
 {
   "name": "nvd3-fork",
-  "version": "2.0.0",
-  "description": "[FORK!] A reusable charting library written in d3.js",
+  "version": "2.0.1",
+  "description": "A reusable charting library written in d3.js",
   "url": "https://github.com/novus/nvd3",
   "main": "build/nv.d3.js",
   "scripts": {
     "test": "grunt",
-    "build": "grunt",
-    "grunt-force": "grunt --force"
+    "build": "grunt"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/novus/nvd3.git"
+    "url": "https://github.com/novus/nvd3"
   },
   "keywords": [
     "nvd3",
@@ -19,44 +18,35 @@
     "chart",
     "graph"
   ],
+  "readmeFilename": "README.md",
   "license": "Apache-2.0",
   "peerDependencies": {
-    "d3": "^3.5.17"
+    "d3": "^3.4.4"
   },
   "devDependencies": {
     "autoprefixer": "^6.5.0",
     "es6-promise": "^4.0.3",
-    "grunt": "^1.1.0",
+    "grunt": "^0.4.5",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-concat": "~1.0.1",
     "grunt-contrib-copy": "~0.4.1",
-    "grunt-contrib-cssmin": "^3.0.0",
-    "grunt-contrib-jshint": "^2.1.0",
-    "grunt-contrib-uglify": "^4.0.1",
-    "grunt-contrib-watch": "^1.1.0",
-    "grunt-karma": "^4.0.0",
+    "grunt-contrib-cssmin": "~0.13.0",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-uglify": "~0.9.1",
+    "grunt-contrib-watch": "~0.3.1",
+    "grunt-karma": "^0.9.0",
     "grunt-postcss": "^0.8.0",
     "grunt-text-replace": "^0.4.0",
-    "karma": "^5.1.0",
+    "karma": "^0.12.23",
     "karma-chrome-launcher": "^0.1.4",
     "karma-coffee-preprocessor": "^0.2.1",
-    "karma-coverage": "^2.0.2",
-    "karma-firefox-launcher": "^0.1.7",
+    "karma-coverage": "^0.2.6",
+    "karma-firefox-launcher": "^0.1.4",
     "karma-junit-reporter": "^0.2.2",
     "karma-mocha": "^0.1.9",
     "karma-sinon-chai": "^0.2.0",
     "karma-spec-reporter": "0.0.13",
-    "mocha": "^8.0.1",
+    "mocha": "^1.21.4",
     "moment": "^2.18.1"
-  },
-  "dependencies": {},
-  "bugs": {
-    "url": "https://github.com/novus/nvd3/issues"
-  },
-  "homepage": "https://github.com/novus/nvd3#readme",
-  "directories": {
-    "example": "examples",
-    "test": "test"
-  },
-  "author": "Maxime Beauchemin"
+  }
 }
