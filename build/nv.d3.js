@@ -1,4 +1,4 @@
-/* nvd3 version 2.0.0 (https://github.com/novus/nvd3) 2020-06-17 */
+/* nvd3 version 2.0.1 (https://github.com/novus/nvd3) 2020-06-17 */
 (function(){
 
 // set up main nv object
@@ -18676,6 +18676,6 @@ nv.models.sunburstChart = function() {
 
 };
 
-nv.version = "2.0.0";
+nv.version = "2.0.1";
 })();
 //# sourceMappingURL=nv.d3.js.map
