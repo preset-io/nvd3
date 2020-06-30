@@ -9,6 +9,17 @@ patches and fixes.
 Note that there's another fork [here]( https://github.com/nvd3/nvd3) that
 targets d3 v4 update for nvd3.
 
+To force-publish a new version:
+
+```bash
+# first bump in package.json
+grunt production # disregard errors :/
+git commit -a -m "{VERSION}"
+git tag {VERSION}
+git push apache-superset master {VERSION}
+npm publish
+```
+
 ## NVD3 - A reusable D3 charting library
 
 Inspired by the work of Mike Bostock's [Towards Reusable Charts](http://bost.ocks.org/mike/chart/), and supported by a combined effort of [Novus](http://www.novus.com) and the NVD3 community.
