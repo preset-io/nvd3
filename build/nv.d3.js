@@ -1,4 +1,4 @@
-/* nvd3 version 2.0.1 (https://github.com/novus/nvd3) 2020-06-17 */
+/* nvd3 version 2.0.3 (https://github.com/apache-superset/nvd3) 2020-06-30 */
 (function(){
 
 // set up main nv object
@@ -790,7 +790,7 @@ nv.models.tooltip = function() {
                    .attr("id", id)
                    .style("top", 0).style("left", 0)
                    .style('opacity', 0)
-                   .style('position', 'absolute')
+                   .style('position', 'fixed')
                    .selectAll("div, table, td, tr").classed(nvPointerEventsClass, true)
                    .classed(nvPointerEventsClass, true);
 
@@ -18676,6 +18676,6 @@ nv.models.sunburstChart = function() {
 
 };
 
-nv.version = "2.0.1";
+nv.version = "2.0.3";
 })();
 //# sourceMappingURL=nv.d3.js.map
