@@ -1,6 +1,6 @@
 {
   "name": "nvd3-fork",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "FORK! of NVD3, a reusable charting library written in d3.js",
   "url": "https://github.com/apache-superset/nvd3",
   "main": "build/nv.d3.js",
