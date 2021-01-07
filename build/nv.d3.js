@@ -1,4 +1,4 @@
-/* nvd3 version 2.0.3 (https://github.com/apache-superset/nvd3) 2020-06-30 */
+/* nvd3 version 2.0.5 (https://github.com/apache-superset/nvd3) 2021-01-07 */
 (function(){
 
 // set up main nv object
@@ -10000,7 +10000,7 @@ nv.models.lineChart = function() {
                             var point = currentValues[pointIndex];
                             var pointYValue = chart.y()(point, pointIndex);
                             if (pointYValue !== null) {
-                                lines.highlightPoint(i, pointIndex, true);
+                                lines.highlightPoint(i, series.values.indexOf(point), true);
                             }
                             if (point === undefined) return;
                             if (singlePoint === undefined) singlePoint = point;
@@ -18676,6 +18676,6 @@ nv.models.sunburstChart = function() {
 
 };
 
-nv.version = "2.0.3";
+nv.version = "2.0.5";
 })();
 //# sourceMappingURL=nv.d3.js.map
